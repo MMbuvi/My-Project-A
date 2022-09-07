@@ -17,3 +17,14 @@ header{
     justify-content: flex-start;
     border-bottom: 1px solid #ccc;
 }
+header h1{
+    margin: 0 30px;
+    color: black;
+}
+header a {
+    text-decoration: none;
+}
+header form{
+    display: flex;
+    align-items: center;
+}
