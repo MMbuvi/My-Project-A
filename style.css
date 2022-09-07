@@ -28,3 +28,33 @@ header form{
     display: flex;
     align-items: center;
 }
+
+#search{
+    width: 230px;
+    height: 30px;
+    border: 1px solid rgb(119, 70, 70);
+    outline: none;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#search{
+    width: 230px;
+    height: 30px;
+    border: 1px solid rgb(119, 70, 70);
+    outline: none;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
