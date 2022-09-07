@@ -84,3 +84,10 @@ img{
     height: 89%;
     object-fit: cover;
 }
+h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
