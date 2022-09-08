@@ -24,3 +24,8 @@ function showMovies(url){
     }); 
 });
 }
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    main.innerHTML = '';
+     
