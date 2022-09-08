@@ -11,3 +11,7 @@ function showMovies(url){
     fetch(url).then(res => res.json())
     .then(function(data){
     console.log(data.results);
+    data.results.forEach(element => {
+        const el = document.createElement('div');
+        const image = document.createElement('img');
+        const text = document.createElement('h2');
