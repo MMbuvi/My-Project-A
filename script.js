@@ -6,3 +6,8 @@ const main = document.getElementById("main")
 const form = document.getElementById("form")
 const search = document.getElementById("search")
 
+showMovies(apiUrl);
+function showMovies(url){
+    fetch(url).then(res => res.json())
+    .then(function(data){
+    console.log(data.results);
