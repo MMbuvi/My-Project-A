@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: rgb(19, 37, 37);
 }
 header{
     width: 100%;
@@ -15,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(26, 22, 22);
 }
 header h1{
     margin: 0 30px;
@@ -32,7 +33,7 @@ header form{
 #search{
     width: 230px;
     height: 30px;
-    border: 1px solid rgb(119, 70, 70);
+    border: 1px solid rgb(8, 8, 8);
     outline: none;
     border-radius: 20px;
     padding-left: 15px;
@@ -77,7 +78,7 @@ main div{
     width: 250px;
     height: 320px;
     margin: 19px 15px;
-    background: rgb(133, 99, 99);
+    background: rgb(150, 131, 131);
 }
 img{
     width: 100%;
@@ -89,5 +90,5 @@ h2{
     font-family: sans-serif;
     font-weight: bold;
     text-align: center;
-    color: #fff;
+    color: rgb(10, 8, 8);
 }
