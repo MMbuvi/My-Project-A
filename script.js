@@ -15,3 +15,12 @@ function showMovies(url){
         const el = document.createElement('div');
         const image = document.createElement('img');
         const text = document.createElement('h2');
+        
+        text.innerHTML = `${element.title}`;
+        image.src = IMGPATH + element.poster_path;
+        el.appendChild(image);
+        el.appendChild(text);
+        main.appendChild(el);
+    }); 
+});
+}
