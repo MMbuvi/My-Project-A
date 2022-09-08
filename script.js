@@ -28,5 +28,11 @@ function showMovies(url){
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     main.innerHTML = '';
-    
+
     const searchTerm = search.value;
+
+    if (searchTerm) {
+        showMovies(SEARCHAPI + searchTerm);
+        search.value = "";
+    }
+});
